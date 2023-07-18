@@ -3,7 +3,7 @@ import axios from 'axios';
 const form = document.querySelector("form");
 const addressInput = document.getElementById('address')! as HTMLInputElement;
 
-const GOOGLE_MAPS_KEY_URL = "AIzaSyBc_qQUkX3oJDxnYJI9JQnYBsa8mhxC0CM";
+const GOOGLE_MAPS_KEY_URL = "";
 declare var google: any;
 
 type GoogleGeocodingResponse = {
