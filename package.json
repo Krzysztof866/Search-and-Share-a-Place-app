@@ -1,0 +1,25 @@
+{
+  "name": "search_and_share_a_place",
+  "version": "1.0.0",
+  "description": "project about sharing a place",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack"
+  },
+  "author": "Krzysztof Gaczorek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  height: 80px;
+  position: relative;
+  line-height: 80px;
+  margin-bottom: 50px;
+  background-color: #e56d33;
+}
+
+.nav h2 {
+  text-align: center;
+  color: #fff;
+}
+
+#map {
+  width: 90%;
+  height: 20rem;
+  border: 1px solid #ccc;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  margin: 50px auto;
+}
+
+.search input {
+  width: 300px;
+  height: 40px;
+  padding: 10px 15px;
+  color: #2c2323;
+  border: 0;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+button {
+  position: relative;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background:  #e56d33;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+button:focus {
+  outline: 0;
+}
+
+.fa-search{
+  padding-right: 8px;
+}
